@@ -1,0 +1,40 @@
+intents:
+- greet
+- goodbye
+- thanks
+- deny
+- joke
+- class
+- name
+- classtopper
+- classhandlingteachers
+
+
+entities:
+- classIdent
+
+slots:
+  classIdent:
+    type: text
+
+
+actions:
+- utter_name
+- utter_thanks
+- utter_goodbye
+- action_joke
+- action_class
+- action_class_student_topper
+- action_class_teachers
+
+
+templates:
+  utter_name:
+  - text: "Hey there! How can I help you today?"
+
+  utter_goodbye:
+  - text: "Talk to you later!"
+  
+  utter_thanks:
+  - text: "My pleasure."
+  

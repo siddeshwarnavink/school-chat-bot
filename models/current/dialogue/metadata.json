@@ -1,0 +1,46 @@
+{
+  "action_fingerprints": {
+    "action_listen": {
+      "slots": []
+    },
+    "action_class_teachers": {
+      "slots": []
+    },
+    "action_joke": {
+      "slots": []
+    },
+    "action_class_student_topper": {
+      "slots": []
+    },
+    "utter_thanks": {
+      "slots": []
+    },
+    "utter_name": {
+      "slots": []
+    },
+    "action_class": {
+      "slots": []
+    },
+    "utter_goodbye": {
+      "slots": []
+    }
+  },
+  "python": "3.7.3",
+  "max_histories": [
+    5,
+    null,
+    5,
+    2
+  ],
+  "ensemble_name": "rasa_core.policies.ensemble.SimplePolicyEnsemble",
+  "policy_names": [
+    "rasa_core.policies.keras_policy.KerasPolicy",
+    "rasa_core.policies.fallback.FallbackPolicy",
+    "rasa_core.policies.memoization.MemoizationPolicy",
+    "rasa_core.policies.form_policy.FormPolicy"
+  ],
+  "trained_at": "20190608-205246",
+  "rasa_core": "0.14.5",
+  "tensorflow": "1.13.1",
+  "sklearn": "0.20.3"
+}
